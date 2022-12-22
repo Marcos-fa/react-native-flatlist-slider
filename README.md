@@ -1,7 +1,7 @@
 # React-Native-FlatList-Slider
 Custom Image Slider Component in React Native
 
-![Screenshot](https://github.com/KPS250/ReactNative-ImageSlider/blob/master/src/screenshots/banner.gif)
+![Screenshot](https://raw.githubusercontent.com/KPS250/React-Native-FlatList-Slider/master/src/screenshots/banner.gif)
 
 ### Install
 ```
@@ -15,8 +15,8 @@ npm i react-native-flatlist-slider
 
 ### Usage
 
-![Screenshot](https://github.com/KPS250/ReactNative-ImageSlider/blob/master/src/screenshots/image1.png)
-
+![Screenshot](https://raw.githubusercontent.com/KPS250/React-Native-FlatList-Slider/master/src/screenshots/image1.png)
+              
 > Images from URI
 
 ``` 
@@ -58,7 +58,7 @@ npm i react-native-flatlist-slider
   />
 ```
 
-![Screenshot](https://github.com/KPS250/ReactNative-ImageSlider/blob/master/src/screenshots/image2.png)
+![Screenshot](https://raw.githubusercontent.com/KPS250/React-Native-FlatList-Slider/master/src/screenshots/image2.png)
 
 ```
   <FlatListSlider
@@ -72,7 +72,7 @@ npm i react-native-flatlist-slider
   />
 ```
 
-![Screenshot](https://github.com/KPS250/ReactNative-ImageSlider/blob/master/src/screenshots/image3.png)
+![Screenshot](https://raw.githubusercontent.com/KPS250/React-Native-FlatList-Slider/master/src/screenshots/image3.png)
 
 ```
  <FlatListSlider
@@ -111,6 +111,7 @@ npm i react-native-flatlist-slider
 | indicatorActiveColor    | String       | '#3498db'    | Active indicator color                             |
 | indicatorInActiveColor  | String       | '#bdc3c7'    | Inactive indicator color                           |
 | indicatorActiveWidth    | Number       | 6            | Active Indicator Width                             |
+| removeClippedSubviews   | Boolean      | true         | Flatlist prop for performance                      |
 | animation               | Boolean      | true         | Animate indicator change                           |\
 
 ### Props passed to Custom Component

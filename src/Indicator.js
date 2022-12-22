@@ -36,6 +36,7 @@ export const renderIndicator = (
   for (let i = 0; i < count; i++) {
     indicators.push(
       <View
+        key = {i.toString()}
         style={[
           styles.indicator,
           indicatorStyle,
@@ -54,7 +55,6 @@ export const renderIndicator = (
                 ...{backgroundColor: indicatorInActiveColor},
               },
         ]}
-      key = {i.toString()}
       />,
     );
   }
@@ -73,6 +73,8 @@ const styles = StyleSheet.create({
     borderRadius: 3,
     marginRight: 5,
   },
-  active: {},
-  inactive: {},
+  active: {
+  },
+  inactive: {
+  },
 });
