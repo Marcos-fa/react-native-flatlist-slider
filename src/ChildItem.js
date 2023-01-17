@@ -35,7 +35,7 @@ export default (ChildItem = ({
         <Text style={Main.description}>{item["desc"]}</Text>
       </View>
 
-      <View style={[Main.imageContainerLib]}>
+      <View style={Main.imageContainerLib}>
         <Image style={Main.imageLib} source={local ? item[imageKey] : { uri: item[imageKey] }} />
       </View>
     </Pressable>
